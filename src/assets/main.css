@@ -9,7 +9,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    padding: 0;
+    margin: 0;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -207,10 +208,12 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    width: 78px;
+    width: 7rem;
     background: #11101d;
     padding: 6px 14px;
     transition: all 0.5s ease;
+    align-items: center;
+
 
 }
 .sidebar.active{
@@ -253,9 +256,7 @@ body {
 .sidebar.active #btn{
     left: 90%;    
 }
-.sidebar ul{
-    margin-top: 20px;
-}
+
 .sidebar ul li{
     position: relative;
     height: 50px;
@@ -299,7 +300,6 @@ body {
     outline: none;
     border: none;
     background: #1d1b31;
-    padding-left: 50px;
     font-size: 18px;
     color: #fff;
 }
@@ -309,6 +309,15 @@ body {
     color: #fff;
     font-size: 22px;
     transition: all 0.5s ease;
+}
+
+.sidebar-box-container {
+display: flex;
+width: 80%;
+height: 80%;
+flex-direction: column;
+text-align: center;
+padding-left: 0.4vw;
 }
 .sidebar ul li .bx-search:hover{
     background: #fff;
