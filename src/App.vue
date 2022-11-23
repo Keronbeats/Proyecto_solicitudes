@@ -33,9 +33,9 @@
     </ul>
 
   </div>
-  <div class="home_content">
+  <!--<div class="home_content">
     <div class="text">Home Content</div>
-  </div>
+  </div>-->
 
   <div id="nav">
     <router-link to="/login">Login</router-link> |

@@ -271,10 +271,10 @@ body {
     top: 50%;
     transform: translate(-50% , -50%);
     border-radius: 6px;
-    height: 35px;
+    /*height: 35px;*/
     width: 122px;
     background: #fff;
-    line-height: 35px;
+    /*line-height: 35px;*/
     text-align: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     transition: 0s;
@@ -351,8 +351,9 @@ padding-left: 0.4vw;
     opacity: 1;
     pointer-events: auto;
     transition: all 0.5s ease;
+    position: fixed;
 }
-.home_content{
+/*.home_content{
     position: absolute;
     height: 100%;
     left: 78px;
@@ -368,3 +369,4 @@ padding-left: 0.4vw;
     width: calc(100% - 240);
     left: 240px;
 }
+*/
