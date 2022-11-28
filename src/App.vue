@@ -10,23 +10,23 @@
 
     <ul class="nav_list">
       <li>
-        <a href="#" class="sidebar-box-container">
-          <i class='bx bx-grid-alt'></i>
-          <span class="links_name">Dashboard</span>
+        <a href="/Home" class="sidebar-box-container">
+          <i class='bx bx-home'></i>
+          <router-link to="/Home" class="links_name">Inicio</router-link>
         </a>
-        <span class="tooltip">Dashboard</span>
+        <span class="tooltip">Inicio</span>
       </li>
       <li>
-        <a href="#" class="sidebar-box-container" >
+        <a href="/Ingreso" class="sidebar-box-container" >
           <i class='bx bx-mail-send'></i>
-          <span class="links_name">Nueva Solicitud</span>
+          <router-link to="/Ingreso" class="links_name">Nueva Solicitud</router-link>
         </a>
         <span class="tooltip">Nueva Solicitud</span>
       </li>
       <li>
-        <a href="#" class="sidebar-box-container">
+        <a href="/Estado" class="sidebar-box-container">
           <i class='bx bx-envelope'></i>
-          <span class="links_name">Estado De Solicitudes</span>
+          <router-link to="/Estado" class="links_name">Estado De Solicitudes</router-link>
         </a>
         <span class="tooltip">Estado De Solicitudes</span>
       </li>
@@ -37,18 +37,14 @@
     <div class="text">Home Content</div>
   </div>-->
 
-  <div id="nav">
-    <router-link to="/login">Login</router-link> |
+  <!--<div id="nav">
+    <router-link to="/login">Login</router-link> 
     <router-link to="/crear">Crear</router-link>
     <router-link to="/editar">Editar</router-link>
     <router-link to="/listar">Listar</router-link>
-    <router-link to="/Ingreso">Ingreso</router-link>
-    <router-link to="/Estado">Estado</router-link>
-    <router-link to="/listar">Listar</router-link>
-    <router-link to="/">home</router-link>
-  </div>
-  <router-view />
-</template>
+  </div>-->
+  <router-view /> 
+</template> 
 
 
 <style scoped>

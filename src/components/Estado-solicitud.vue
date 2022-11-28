@@ -1,3 +1,3 @@
 <template>
-    <div>aaaa</div>
+    <div>estado</div>
 </template>
