@@ -30,6 +30,13 @@
         </a>
         <span class="tooltip">Estado De Solicitudes</span>
       </li>
+      <li>
+        <a href="/login" class="sidebar-box-container">
+          <i class='bx bx-log-in'></i>
+          <router-link to="/login" class="links_name">Login</router-link>
+        </a>
+        <span class="tooltip">Login</span>
+      </li>
     </ul>
 
   </div>
