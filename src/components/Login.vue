@@ -3,7 +3,7 @@
   <div class="login-card-container">
     <div class="login-card">
       <div class="login-card-logo">
-        <img src="../assets/icon.png" alt="logo">
+        <img src="../assets/picwish.png" alt="logo">
       </div>
       <div class="login-card-header">
         <h1>Sign In</h1>
@@ -23,15 +23,15 @@
             <input type="checkbox" id="rememberMeCheckbox">
             <label for="rememberMeCheckbox">Recordar</label>
           </div>
-          <a href="#">Olvide mi Contraseña!:(</a>
+          <!--<a href="#">Olvide mi Contraseña!:(</a>-->
         </div>
         <button type="submit">Ingresar</button>
       </form>
-      <div class="login-card-footer">
+      <!--<div class="login-card-footer">
         No tienes Cuenta? <a href="#">Crea una Cuenta Gratis</a>
-      </div>
+      </div>-->
     </div>
-    <div class="login-card-social">
+    <!--<div class="login-card-social">
       <div>Ingresar con</div>
       <div class="login-card-social-btns">
         <a href="#">
@@ -58,6 +58,6 @@
           </svg>
         </a>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>

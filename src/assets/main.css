@@ -38,10 +38,15 @@ body {
 
 .login-card-logo {
     margin-bottom: 2rem;
+    position: relative;
+    margin: auto;
 }
 
 .login-card-logo img {
-    width: 60px;
+    width: 120px;
+    position:relative;
+    height: 90px;
+    top: -20px;
 }
 
 .login-card-logo,

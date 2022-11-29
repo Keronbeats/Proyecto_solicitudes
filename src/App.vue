@@ -3,7 +3,7 @@
     <div class="logo_content">
       <div class="logo">
         <i class='bx bx-support'></i>
-        <div class="logo_name">HOLASoylogo</div>
+        <div class="logo_name">Reclamos CFT</div>
       </div>
       <i class='bx bx-menu' id="btn"></i>
     </div>
@@ -30,12 +30,19 @@
         </a>
         <span class="tooltip">Estado De Solicitudes</span>
       </li>
-      <li>
+      <li class="nav_down">
         <a href="/login" class="sidebar-box-container">
           <i class='bx bx-log-in'></i>
           <router-link to="/login" class="links_name">Login</router-link>
         </a>
         <span class="tooltip">Login</span>
+      </li>
+      <li class="nav_down">
+        <a href="/login" class="sidebar-box-container">
+          <i class='bx bx-log-out'></i>
+          <router-link to="/login" class="links_name">Log-out</router-link>
+        </a>
+        <span class="tooltip">Log-out</span>
       </li>
     </ul>
 
@@ -55,6 +62,9 @@
 
 
 <style scoped>
-
+.nav_down{
+  position: relative;
+  top: 600px;
+}
 
 </style>

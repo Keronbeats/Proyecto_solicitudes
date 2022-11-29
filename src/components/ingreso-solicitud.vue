@@ -2,7 +2,7 @@
   <div class="form_container">
     <div class="form">
       <div class="form_logo">
-        <img src="../assets/icon.png" alt="logo" />
+        <img src="../assets/picwish.png" alt="logo" />
       </div>
       <div class="form_title">
         <h1>Ingreso de Solicitud</h1>
@@ -54,10 +54,10 @@
 
 .form_logo {
   position: relative;
-  width: 100px;
+  width: 130px;
   height: 100px;
-  top: -50px;
-  left: 200px;
+  top: -40px;
+  left: 180px;
   margin-bottom: 1rem;
 }
 
